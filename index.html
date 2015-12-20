@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="multiStore">
+<head>
+    <meta charset="UTF-8">
+    <title>Data model multi mapping</title>
+    <script src="lib/lodash/lodash.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/restangular/dist/restangular.min.js"></script>
+    <script src="src/app/app.js"></script>
+    <script src="src/app/Controller.js"></script>
+    <script src="src/app/Model.js"></script>
+    <script src="src/app/NestedModelOne.js"></script>
+    <script src="src/app/NestedModelTwo.js"></script>
+    <script src="src/app/NestedModelThree.js"></script>
+    <script src="src/app/Constants.js"></script>
+</head>
+<body ng-controller="Controller as c">
+<h1>Multi mapping</h1>
+<section>
+    <span>model: {{c.model}}</span>
+    <br/><br/>
+    <input type="text" ng-model="c.model.property.property">
+    <br/><br/>
+    <input type="text" ng-model="c.model.property.item">
+</section>
+</body>
+</html>

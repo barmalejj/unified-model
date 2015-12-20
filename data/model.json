@@ -1,0 +1,20 @@
+{
+  "firstProperty": {
+    "firstPropertyOne": "",
+    "secondPropertyOne": "",
+    "thirdPropertyOne": "",
+    "notMappedPropertyOne": ""
+  },
+  "secondProperty": {
+    "firstPropertyTwo": "",
+    "secondPropertyTwo": "",
+    "thirdPropertyTwo": "",
+    "notMappedPropertyTwo": ""
+  },
+  "thirdProperty": {
+    "firstPropertyThree": "",
+    "secondPropertyThree": "",
+    "thirdPropertyThree": "",
+    "notMappedPropertyThree": ""
+  }
+}
